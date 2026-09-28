@@ -11,9 +11,6 @@ def RoterOne(word):
         
         index = alfabet.index(i)
         result += roter[index]
-        roter.pop(0)        
+        roter.append(roter.pop(0))        
     return result
 
-print(RoterOne("HI"))
-print(RoterOne("HI"))
-print(RoterOne("HI"))
